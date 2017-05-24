@@ -1,0 +1,358 @@
+@import 'https://fonts.googleapis.com/css?family=Crimson+Text|Raleway';
+body {
+  margin: 0;
+  margin-top: 800px;
+}
+
+* {
+  /*border: dashed 1px black;*/
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  font-family: "Crimson Text", "Ehrhardt", "Baskerville";
+  line-height: 33.6px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 195px 0px 0px 0px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  font-size: 10rem;
+  letter-spacing: -0.3rem;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  margin: 0px 0px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  font-size: 3.1rem;
+  letter-spacing: 0.2rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Raleway", "Avenir", "Andale Mono", serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+
+a {
+  text-align: center;
+  color: white;
+  font-family: "raleway", "Avenir", "Andale Mono", serif;
+  font-weight: 100;
+  font-size: .8rem;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#video_wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center center
+}
+#background_video {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  height: 100%;
+  width: 100%
+}
+
+#video_loop {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#background_hero {
+display: flex;
+position: absolute;
+top: 0;
+left: 0;
+flex-direction: column;
+width: 100%;
+height: 620px;
+min-height: 300px;
+}
+
+#logo_text {
+  color: white;
+}
+
+.hero_row {
+  width: 100%;
+  height: 730px;
+  min-height: 300px;
+  background-position: center;
+}
+
+.text_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.page_row {
+  width: 100%;
+}
+
+#about_full {
+  background-color: white;
+  color: black;
+  height: 332px;
+  min-height: 300px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.half_row {
+  flex: 50%;
+  width: 50%;
+  height: 532px;
+  min-height: 300px;
+  color: white;
+  float: left;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#about_pic_row_2 {
+  background: url("../images/bg-1.jpg");
+  background-position: center;
+  background-size: auto;
+}
+
+#about_pic_row_3 {
+  background-image: url("../images/bg-2.jpg");
+}
+
+#about_pic_row_4 {
+  background-image: url("../images/bg-3.jpg");
+}
+
+h4 {
+  text-align: center;
+  font-family: "Crimson Text", "Ehrhardt", "Baskerville";
+  font-weight: 100;
+  font-size: 1.0rem;
+}
+
+#contact {
+  height: 320px;
+  min-height: 300px;
+  color: white;
+  clear: both;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-image: url("../images/blured-stripe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#footer {
+  min-height: 105px;
+  background-color: black;
+  color: #545454;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#nav_div {
+  text-align: center;
+}
+
+#nav-list {
+  align-self: center;
+  text-decoration: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+iframe {
+    height: 80%;
+    width: 70%;
+    border: 0
+}
+
+#video_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 620px;
+  min-height: 300px;
+  background-image: url("../images/video-cover2.jpg");
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  text-align: center;
+}
+
+#nav_ul_soc {
+  text-align: center;
+  fill: white;
+}
+
+.nav_li_soc {
+  display: inline-block;
+  fill: white;
+}
+
+.nav_social {
+  color: white;
+  height: 30px;
+  width: 30px;
+  fill: white !important;
+}
+
+#form_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#quote_h3 {
+  margin: 100px 0px 50px 0px;
+  ;
+}
+
+#quote_section {
+  height: 555px;
+  margin-top: 100px;
+}
+
+.quote_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 320px;
+  min-width: 800px;
+  background-color: white;
+}
+
+.row_input {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  justify-content: center;
+  width: 100%;
+}
+
+.comment_input {
+  height: 180px;
+}
+
+.field, .comment_field {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: 10px 10px 0px 0px;
+  padding: 8px 18px 8px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #808080;
+  border-style: solid;
+  border-width: .25px;
+  border-color: #E0E0E0;
+}
+
+.comment_field {
+  height: 100px;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+input[type=text] {
+  height: 55px;
+  width: 100%;
+  padding-left: 5px;
+  font-family: "raleway", "Avenir", "Andale Mono", serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #C0C0C0;
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  font-family: "raleway", "Avenir", "Andale Mono", serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  resize: both;
+  overflow: auto;
+}
+
+input[type=get_quote] {
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  font-family: "raleway", "Avenir", "Andale Mono", serif;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+}
